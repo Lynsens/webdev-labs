@@ -6,11 +6,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /*
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+section {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 1px #CCC; 
+    margin: 10px;
+    width: 31vh;
+    height: 40vh; 
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
@@ -19,6 +28,12 @@ Feel free to borrow from Exercise 1.
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    section {
+        box-sizing: border-box;
+        border: solid 1px #CCC; 
+        margin: 10px;
+        width: 45vh;
+        height: 60vh; 
+    }
     
 }
